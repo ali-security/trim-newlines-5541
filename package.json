@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "ava"
   },
   "files": [
     "index.js"
@@ -36,7 +36,6 @@
     "strip"
   ],
   "devDependencies": {
-    "ava": "*",
-    "xo": "*"
+    "ava": "0.2.0"
   }
 }
